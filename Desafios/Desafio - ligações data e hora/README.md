@@ -1,14 +1,16 @@
-﻿# Desafio programação funcional
+<h1>Desafio programação funcional</h1>
 
-Em uma empresa de telefonia existe um software responsável pela tarifação das ligações, ele recebe um relatório com as ligações e calcula o valor da fatura de cada cliente, baseado nas regras de tarifação diurna ou noturna.
+<p>Em uma empresa de telefonia existe um software responsável pela tarifação das ligações, ele recebe um relatório com as ligações e calcula o valor da fatura de cada cliente, baseado nas regras de tarifação diurna ou noturna.</p>
     
-    Tarifação:
-    Diurna - entre 6h00 e 22h00 :
-        * Encargo permanente: R $ 0,36 (encargos fixos que são usados ​​para pagar o custo da conexão);
-        * Taxa de ligação / minuto: R $ 0,09 (não há cobrança fracionada. *A cobrança se aplica a cada ciclo concluído de 60 segundos)*.
-    Noturna - entre 22h00 e 6h00:
-        * Taxa permanente: R $ 0,36
-        * Taxa de ligação / minuto: R $ 0,00
+    <h2>Tarifação:</h2>
+   <h3>Diurna - entre 6h00 e 22h00 :</h3>
+        
+      <h4>*Encargo permanente: R $ 0,36 (encargos fixos que são usados ​​para pagar o custo da conexão);</h4>
+       <h4>*Taxa de ligação / minuto: R $ 0,09 (não há cobrança fracionada. *A cobrança se aplica a cada ciclo concluído de 60 segundos)*.</h4>
+     
+ <h3>Noturna - entre 22h00 e 6h00:</h3>
+       <h4> * Taxa permanente: R $ 0,36</h4>
+      <h4>  * Taxa de ligação / minuto: R $ 0,00</h4>
 
 Classificar as ligações por número de origem e agrupá-las com o valor total das ligações feitas por esse número. 
 Complete o método *classify_by_phone_number* que recebe por parâmetro um relatório em forma de lista de dicionários.
